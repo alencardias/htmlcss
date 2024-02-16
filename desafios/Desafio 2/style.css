@@ -1,0 +1,47 @@
+@charset "UTF-8"
+
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: rgba(71, 69, 69, 0.582);
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 2px 2px 2px 2px;
+    text-align: center;
+    border-radius: 10px 0px 10px 0px;  
+
+}
+
+article h2 {
+    background-color: rgb(34, 32, 32);
+    color: white;
+    padding: 10px;
+    width: 57.4%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 2em;
+    border-radius: 10px 0px 10px 0px;
+}
+footer {
+    background-color: rgb(36, 28, 28);
+    padding: 10px;
+    color: white;
+    font-weight: normal;
+}
+
+nav {
+    padding: 10px;
+    background-color: aqua;
+    width: 10%;
+}

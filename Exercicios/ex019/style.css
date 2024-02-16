@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'romance';
+    src: url(Aesthetic\ Romance.ttf);
+    
+}
+
+/* em HTML é id = em CSS # (só pode um elemento)
+em HTML é Class = em CSS . (pode ter mais de um elemento)*/
+
+body {
+    background-color: rgba(134, 211, 147, 0.445);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: rgb(29, 124, 93);
+}
+h1#principal {
+    text-align: center;
+    background-color: rgb(11, 131, 91);
+    color: rgb(241, 235, 235);
+    font-family: 'romance', Times, serif;
+    font-size: 3em;
+    font-weight: normal;
+    
+
+}
+h2 {
+    color: rgb(55, 59, 59);
+}
+.basico{
+    color: green;
+
+}
+.intermediario {
+
+    color: rgb(95, 95, 5);
+}
+.avançado{
+    color: red;
+
+}
+.destaque{
+    background-color: #dfdf8879;
+}
