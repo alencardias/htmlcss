@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Loader Machining</title>
+
+    <style>
+
+      @font-face {
+        font-family:'bebas';
+        src: url('fonte/BebasNeue-Regular.ttf') format('truetype'); 
+        font-weight: 900; 
+      }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: content-box;
+        }
+
+       h1.color-change-3x {
+	animation: color-change-3x 6s linear infinite alternate backwards;
+}
+
+        body{
+          font-family: Arial, Helvetica, sans-serif;
+          background-image: url('img\ 4\ full.jpg');
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+          background-attachment: fixed;
+          background-color: rgb(0, 0, 0);
+        
+        }
+         h2{
+          font: 20pt 'bebas', cousive;
+          background-image: linear-gradient(to right, #3f445e, transparent);
+          color: white;
+          width: 50%;
+          padding: 10px;
+          transform: translateX(49%);
+          border-top-left-radius: 10px;
+
+        }
+        header{
+            background-color: rgb(29, 28, 82);
+              
+        }
+        h1 {
+            color: aliceblue;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-variant: small-caps;
+            width: fit-content;
+            padding: 5px;
+            border-radius: 10px 0px 10px 0px;
+            box-shadow: 5px 5px 9px 0px rgba(0, 0, 0, 0.425);
+        }
+        
+
+        .tabela{
+          box-shadow: 0px 0px 13px 0px black;
+          border-collapse: collapse;
+          background-color:white;
+          border: 2px solid rgb(0, 17, 255); 
+          width: 50%;
+          transform: translateX(50%);
+        }
+        .cor02{
+          background-color: yellow;
+        }
+      
+        td{
+          padding: 5px;
+          text-align: center;
+          border: 1px solid black;  
+        }
+         
+        .cor{
+          background-color: rgba(177, 177, 177, 0.452);
+        }
+
+       h1:hover{ 
+        color: white;
+        text-decoration: none;
+        background-color: #3f445e;
+        cursor: pointer;
+        }
+        
+        a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+        a:visited {
+            color: rgb(255, 255, 255);
+        }
+        a:hover {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+        a:active {
+            color: blue;
+        }
+
+
+@keyframes color-change-3x {
+  0% {
+    background: #363a52;
+  }
+  50% {
+    background: #9fdeee;
+  }
+  100% {
+    background: #423ff5d0;
+  }
+}
+    </style>
+</head>
+<body>
+
+  <header>
+<nav>
+  <h1 class="position01"><a href="loadercnc.html">Loader CNC-Machining</a></h1>
+  <h1 class="position02"><a href="Bakhoecnc.html">Bakhoe CNC-Machining</a></h1>
+  <h1 class="color-change-3x">Crawler CNC-Machining</h1>
+  <h1 class="position04"><a href="motorgradecnc.html">Motorgrader CNC-Machining</a></h1>
+  </nav>
+  </header>
+
+  <br> <br> <br>
+
+    <h2>Loder Frame 524k/544k </h2> 
+    
+    <table class="tabela">
+      <tr class="cor02">
+        <td>CODIGO</td>
+        <td>POKET</td>
+        <td>DESCRIÇÃO DE FERRAMENTAS.</td> 
+      </tr>
+
+      <tr class="cor">
+        <td>9001</td>
+        <td>01</td>
+        <td>PROBE  RENISHAW / IM306264 / PONTA IM162182</td> 
+      </tr>
+
+      <tr>
+        <td>3009</td>
+        <td>20</td>
+        <td>BROCA Ø89mm</td> 
+      </tr>
+
+      <tr class="cor">
+        <td>3023</td>
+        <td>21</td>
+        <td>BROCA Ø10.7mm </td>
+      </tr>
+
+      <tr>
+        <td>7005</td>
+        <td>50</td>
+        <td>MACHO M12 X 1.75mm</td>
+      </tr>
+
+        <tr class="cor">
+        <td>8019</td>
+        <td>64</td>
+        <td>BARRA CONJUGADA Ø 99.64mm / Ø 112.67mm</td>
+      </tr>
+
+        <tr>
+        <td>3024</td>
+        <td>22</td>
+        <td>BROCA PONTA MODULAR ISCAR Ø 22.00mm</td>
+      </tr>
+      
+      <tr class="cor">
+        <td>3032</td>
+        <td>30</td>
+        <td>BROCA PONTA MODULAR ISCAR Ø 27.00mm</td>
+      </tr>
+      
+      <tr>
+        <td>3025</td>
+        <td>23</td>
+        <td>BROCA INTERCAMBIÁVEL CONJ. ISCAR Ø 38.70mm / Ø 39.53mm </td>
+      </tr> 
+      
+      <tr class="cor">
+        <td>3002</td>
+        <td>10</td>
+        <td>BROCA PONTA MODULAR ISCAR Ø 14.50mm </td>
+      </tr>
+
+      <tr>
+        <td>7001</td>
+        <td>48</td>
+        <td>MACHO M16 X 2.00mm </td>
+      </tr>
+
+      <tr class="cor">
+        <td>3016</td>
+        <td>15</td>
+        <td>BROCA COM INSERTO ISCAR Ø 68.60mm </td>
+      </tr>
+
+      <tr>
+        <td>3034</td>
+        <td>31</td>
+        <td> BROCA COM INSERTO ISCAR Ø 63.50mm </td>
+      </tr>
+
+      <tr class="cor">
+        <td>8014</td>
+        <td>59</td>
+        <td>BARRA DE MANDRILHAR ISCAR Ø 69.64mm </td>
+      </tr>
+
+      <tr>
+        <td>3042</td>
+        <td>37</td>
+        <td>BROCA PONTA MODULAR ISCAR Ø 12.00m </td>
+      </tr>
+
+      <tr class="cor">
+        <td>8021</td>
+        <td>66</td>
+        <td>BARRA DE ACABAMENTO ISCAR Ø 64.64mm </td>
+      </tr>
+      </table>
+
+      <br> <br> <br>
+
+      <h2>Loder Frame 644k/724k</h2>
+  
+      <table class="tabela">
+        <tr class="cor02">
+          <td>CODIGO</td>
+          <td>POKET</td>
+          <td>DESCRIÇÃO DE FERRAMENTAS.</td> 
+        </tr>
+  
+        <tr class="cor">
+          <td>9001</td>
+          <td>01</td>
+          <td>PROBE  RENISHAW / IM306264 / PONTA IM162182</td> 
+        </tr>
+  
+        <tr>
+          <td>3009</td>
+          <td>20</td>
+          <td>BROCA Ø89mm</td> 
+        </tr>
+  
+        <tr class="cor">
+          <td>3023</td>
+          <td>21</td>
+          <td>BROCA Ø10.7mm </td>
+        </tr>
+  
+        <tr>
+          <td>7005</td>
+          <td>50</td>
+          <td>MACHO M12 X 1.75mm</td>
+        </tr>
+  
+          <tr class="cor">
+          <td>8019</td>
+          <td>64</td>
+          <td>BARRA CONJUGADA Ø 99.64mm / Ø 112.67mm</td>
+        </tr>
+  
+          <tr>
+          <td>3024</td>
+          <td>22</td>
+          <td>BROCA PONTA MODULAR ISCAR Ø 22.00mm</td>
+        </tr>
+        
+        <tr class="cor">
+          <td>3032</td>
+          <td>30</td>
+          <td>BROCA PONTA MODULAR ISCAR Ø 27.00mm</td>
+        </tr>
+        
+        <tr>
+          <td>3025</td>
+          <td>23</td>
+          <td>BROCA INTERCAMBIÁVEL CONJ. ISCAR Ø 38.70mm / Ø 39.53mm </td>
+        </tr> 
+        
+        <tr class="cor">
+          <td>3002</td>
+          <td>10</td>
+          <td>BROCA PONTA MODULAR ISCAR Ø 14.50mm </td>
+        </tr>
+  
+        <tr>
+          <td>7001</td>
+          <td>48</td>
+          <td>MACHO M16 X 2.00mm </td>
+        </tr>
+  
+        <tr class="cor">
+          <td>3016</td>
+          <td>15</td>
+          <td>BROCA COM INSERTO ISCAR Ø 68.60mm </td>
+        </tr>
+  
+        <tr>
+          <td>3034</td>
+          <td>31</td>
+          <td> BROCA COM INSERTO ISCAR Ø 63.50mm </td>
+        </tr>
+  
+        <tr class="cor">
+          <td>8014</td>
+          <td>59</td>
+          <td>BARRA DE MANDRILHAR ISCAR Ø 69.64mm </td>
+        </tr>
+  
+        <tr>
+          <td>3042</td>
+          <td>37</td>
+          <td>BROCA PONTA MODULAR ISCAR Ø 12.00m </td>
+        </tr>
+  
+        <tr class="cor">
+          <td>8021</td>
+          <td>66</td>
+          <td>BARRA DE ACABAMENTO ISCAR Ø 64.64mm </td>
+        </tr>
+    </table>
+    <br> <br> <br>
+    
+      <h2>Loder Frame 644G</h2>
+    
+      <table class="tabela">
+        <tr class="cor02">
+          <td>CODIGO</td>
+          <td>POKET</td>
+          <td>DESCRIÇÃO DE FERRAMENTAS.</td> 
+        </tr>
+
+      <tr class="cor">
+        <td>9001</td>
+        <td>01</td>
+        <td>PROBE  RENISHAW / IM306264 / PONTA IM162182</td> 
+      </tr>
+
+      <tr>
+        <td>3009</td>
+        <td>20</td>
+        <td>BROCA Ø89mm</td> 
+      </tr>
+
+      <tr class="cor">
+        <td>3023</td>
+        <td>21</td>
+        <td>BROCA Ø10.7mm </td>
+      </tr>
+
+      <tr>
+        <td>7005</td>
+        <td>50</td>
+        <td>MACHO M12 X 1.75mm</td>
+      </tr>
+
+        <tr class="cor">
+        <td>8019</td>
+        <td>64</td>
+        <td>BARRA CONJUGADA Ø 99.64mm / Ø 112.67mm</td>
+      </tr>
+
+        <tr>
+        <td>3024</td>
+        <td>22</td>
+        <td>BROCA PONTA MODULAR ISCAR Ø 22.00mm</td>
+      </tr>
+      
+      <tr class="cor">
+        <td>3032</td>
+        <td>30</td>
+        <td>BROCA PONTA MODULAR ISCAR Ø 27.00mm</td>
+      </tr>
+      
+      <tr>
+        <td>3025</td>
+        <td>23</td>
+        <td>BROCA INTERCAMBIÁVEL CONJ. ISCAR Ø 38.70mm / Ø 39.53mm </td>
+      </tr> 
+      
+      <tr class="cor">
+        <td>3002</td>
+        <td>10</td>
+        <td>BROCA PONTA MODULAR ISCAR Ø 14.50mm </td>
+      </tr>
+
+      <tr>
+        <td>7001</td>
+        <td>48</td>
+        <td>MACHO M16 X 2.00mm </td>
+      </tr>
+
+      <tr class="cor">
+        <td>3016</td>
+        <td>15</td>
+        <td>BROCA COM INSERTO ISCAR Ø 68.60mm </td>
+      </tr>
+
+      <tr>
+        <td>3034</td>
+        <td>31</td>
+        <td> BROCA COM INSERTO ISCAR Ø 63.50mm </td>
+      </tr>
+
+      <tr class="cor">
+        <td>8014</td>
+        <td>59</td>
+        <td>BARRA DE MANDRILHAR ISCAR Ø 69.64mm </td>
+      </tr>
+
+      <tr>
+        <td>3042</td>
+        <td>37</td>
+        <td>BROCA PONTA MODULAR ISCAR Ø 12.00m </td>
+      </tr>
+
+      <tr class="cor">
+        <td>8021</td>
+        <td>66</td>
+        <td>BARRA DE ACABAMENTO ISCAR Ø 64.64mm </td>
+      </tr>
+  </table>
+
+  <br> <br> <br>
+
+    <h2>Loder Frame 624k</h2>
+  
+    <table class="tabela">
+      <tr class="cor02">
+        <td>CODIGO</td>
+        <td>POKET</td>
+        <td>DESCRIÇÃO DE FERRAMENTAS.</td> 
+      </tr>
+
+    <tr class="cor">
+      <td>9001</td>
+      <td>01</td>
+      <td>PROBE  RENISHAW</td> 
+    </tr>
+
+    <tr>
+      <td>3009</td>
+      <td>20</td>
+      <td>BROCA Ø89mm</td> 
+    </tr>
+
+    <tr class="cor">
+      <td>3023</td>
+      <td>21</td>
+      <td>BROCA Ø10.7mm </td>
+    </tr>
+
+    <tr>
+      <td>7005</td>
+      <td>50</td>
+      <td>MACHO M12 X 1.75mm</td>
+    </tr>
+
+      <tr class="cor">
+      <td>8019</td>
+      <td>64</td>
+      <td>BARRA CONJUGADA Ø 99.64mm / Ø 112.67mm</td>
+    </tr>
+
+      <tr>
+      <td>3024</td>
+      <td>22</td>
+      <td>BROCA PONTA MODULAR ISCAR Ø 22.00mm</td>
+    </tr>
+    
+    <tr class="cor">
+      <td>3032</td>
+      <td>30</td>
+      <td>BROCA PONTA MODULAR ISCAR Ø 27.00mm</td>
+    </tr>
+    
+    <tr>
+      <td>3025</td>
+      <td>23</td>
+      <td>BROCA INTERCAMBIÁVEL CONJ. ISCAR Ø 38.70mm / Ø 39.53mm </td>
+    </tr> 
+    
+    <tr class="cor">
+      <td>3002</td>
+      <td>10</td>
+      <td>BROCA PONTA MODULAR ISCAR Ø 14.50mm </td>
+    </tr>
+
+    <tr>
+      <td>7001</td>
+      <td>48</td>
+      <td>MACHO M16 X 2.00mm </td>
+    </tr>
+
+    <tr class="cor">
+      <td>3016</td>
+      <td>15</td>
+      <td>BROCA COM INSERTO ISCAR Ø 68.60mm </td>
+    </tr>
+
+    <tr>
+      <td>3034</td>
+      <td>31</td>
+      <td> BROCA COM INSERTO ISCAR Ø 63.50mm </td>
+    </tr>
+
+    <tr class="cor">
+      <td>8014</td>
+      <td>59</td>
+      <td>BARRA DE MANDRILHAR ISCAR Ø 69.64mm </td>
+    </tr>
+
+    <tr>
+      <td>3042</td>
+      <td>37</td>
+      <td>BROCA PONTA MODULAR ISCAR Ø 12.00m </td>
+    </tr>
+
+    <tr class="cor">
+      <td>8021</td>
+      <td>66</td>
+      <td>BARRA DE ACABAMENTO ISCAR Ø 64.64mm </td>
+    </tr>
+</table>
+
+<br> <br> <br>
+    
+</body>
+</html>
