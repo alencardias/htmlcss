@@ -9,21 +9,21 @@
 
     <h1>Teste de formulario</h1>
 
-    <form action="cadastro.php" method="post">
+    <form action="cadastro.php" method="post" autocomplete="on">
 
     <p>
         <label for="iusu">Usuario:</label>
-        <input type="text" nome="usu" id="iusu" required minlength="5" maxlength="15" size="10">
+        <input type="text" nome="usu" id="iusu" required minlength="5" maxlength="30" size="10" placeholder="Usuario" autocomplete="username">
     </p>
     <p>
         <label for="isen">Senha:</label>
-        <input type="password" nome="sen" id="isen" required minlength="8">
+        <input type="password" nome="sen" id="isen" required minlength="8" size="10" placeholder="Senha" autocomplete="current-password">
     </p>
     <p>
         <input type="submit" value="Enviar">
         <input type="reset" value="Limpar">
-    </p>
- </form>
+    </p> 
+</form>
     
 </body>
 </html>
