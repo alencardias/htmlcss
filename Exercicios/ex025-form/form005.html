@@ -1,29 +1,107 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formularios</title>
-</head>
-<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        h1{
+            background-color: cadetblue;
+            width: fit-content;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.466);
+        }
+        form{
+            background-color: rgb(224, 224, 224);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.466);
+            width: 30%;
+        }
+        .sexo{
+            margin: 15px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .esporte{
+            margin: 15px;
+            padding: 10px;
+            border-radius: 10px;
+        }input{
+            margin: 10px;
+        }
+        .enviar-limpar{
+            padding: 10px;
+        
+        }
+        .enviar{
+            background-color: steelblue;
+            padding: 10px;
+            color: white;
+            border-radius: 10px; 
+            border: none;
+            transition-duration: .8s;
+        }
+        .limpar{
+            background-color: steelblue;
+            padding: 10px;
+            color: white;
+            border-radius: 10px; 
+            border: none;
+            transition-duration: .8s;
+        }
+
+        .enviar:hover{
+            background-color: rgb(35, 80, 117); 
+               
+        }
+        .limpar:hover{
+            background-color: rgb(35, 80, 117);    
+        }
+    </style>
+  </head>
+  <body>
     <h1>Exemplo de Formularios</h1>
     <form action="cadastro.php" method="get" autocomplete="on">
+      <fieldset class="sexo">
+        <legend>Sexo</legend>
+        <input type="radio" name="sexo" id="isxmas" value="M"> <label for="isxmas">Masculino</label> <br>
 
-        <fieldset>
-            <legend>Esportes favoritos</legend>
-            <input type="checkbox" name="esbas" id="iesbas"> Basquete <br> 
-            <input type="checkbox" name="esfut" id="iesfut"> Futebol <br>
-            <input type="checkbox" name="esnat" id="iesnat"> Natação <br>
-            <input type="checkbox" name="esten" id="iesten"> Tênis <br>
-        </fieldset>
+        <input type="radio" name="sexo" id="isxfem" value="F" checked><label for="isxfem">Feminino</label>
+      </fieldset>
 
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
+      <fieldset class="esporte">
+        <legend>Esportes favoritos</legend>
+        <input type="checkbox" name="esbas" id="iesbas" checked />
+        <label for="iesbas" >Basquete</label> <br />
 
-        </p>
+        <input type="checkbox" name="esfut" id="iesfut" checked />
+        <label for="iesfut">Futebol</label> <br />
 
+        <input type="checkbox" name="esnat" id="iesnat" />
+        <label for="iesnat">Natação</label> <br />
 
+        <input type="checkbox" name="esten" id="iesten" />
+        <label for="iesten">Tênis</label> <br />
+      </fieldset>
+
+      <p>
+        <input class="enviar" type="submit" value="Enviar" />
+        <input class="limpar" type="reset" value="Limpar" />
+      </p>
     </form>
-</body>
+  </body>
 </html>
