@@ -8,4 +8,4 @@
 
 <a href="https://alencardias.github.io/htmlcss/Exercicios/ex025-form/form003.html" target="_blank">Ex025 Formularios.</a>
 
-<a href="https://alencardias.github.io/htmlcss/Exercicios/ex026/mq004/index.html">Media Query</a>
+<a href="https://alencardias.github.io/htmlcss/Exercicios/ex026/mq004/index.html" target="_blank" > Media Query</a>
