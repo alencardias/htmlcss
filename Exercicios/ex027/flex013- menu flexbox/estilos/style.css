@@ -48,7 +48,16 @@ header > nav {
     justify-content: flex-end;
 }
 
-header > nav > a {
+nav{
+    display: none;
+}
+nav >ul{
+    list-style-type: none;
+}
+
+
+
+ nav > ul > li > a {
     color: white;
     background-color: rgb(0, 0, 0);
     text-decoration: none;
@@ -58,7 +67,7 @@ header > nav > a {
     text-align: center;
     transition: transform, ease, .3s;
 }
-header > nav > a:hover{
+nav > ul > li > a:hover{
     background-color: rgb(255, 255, 255);
     color: black;
     transform: scale(1.2);
